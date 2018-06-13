@@ -1,0 +1,48 @@
+#wpbooklist-filter-div {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 300px;
+    text-align: right;
+}
+
+#wpbooklist-filter-search-container #wpbooklist-filter-div select{
+    width:300px;
+    margin-bottom: 5px;
+}
+
+#wpbooklist-search-sort-inner-cont{
+    display: inline-block;
+}
+
+#wpbooklist-filter-search-container{
+    text-align: right;
+}
+
+#wpbooklist-search-checkboxes{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#wpbooklist-search-div {
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#wpbooklist-filter-between-year-div p {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#wpbooklist-filter-between-year-div select {
+    display: inline-block!important;
+    width: 60px!important;
+}
+
+#wpbooklist-to-span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-style: italic;
+}

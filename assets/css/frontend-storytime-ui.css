@@ -1,0 +1,678 @@
+.wpbooklist-storytime-reader-top-cont html, .wpbooklist-storytime-reader-top-cont body, .wpbooklist-storytime-reader-top-cont div, .wpbooklist-storytime-reader-top-cont span, .wpbooklist-storytime-reader-top-cont applet, .wpbooklist-storytime-reader-top-cont object, .wpbooklist-storytime-reader-top-cont iframe,
+h1, .wpbooklist-storytime-reader-top-cont h2, .wpbooklist-storytime-reader-top-cont h3, .wpbooklist-storytime-reader-top-cont h4, .wpbooklist-storytime-reader-top-cont h5, .wpbooklist-storytime-reader-top-cont h6, .wpbooklist-storytime-reader-top-cont p, .wpbooklist-storytime-reader-top-cont blockquote, .wpbooklist-storytime-reader-top-cont pre,
+.wpbooklist-storytime-reader-top-cont a, .wpbooklist-storytime-reader-top-cont abbr, .wpbooklist-storytime-reader-top-cont acronym, .wpbooklist-storytime-reader-top-cont address, .wpbooklist-storytime-reader-top-cont big, .wpbooklist-storytime-reader-top-cont cite, .wpbooklist-storytime-reader-top-cont code,
+del, .wpbooklist-storytime-reader-top-cont dfn, .wpbooklist-storytime-reader-top-cont em, .wpbooklist-storytime-reader-top-cont img, .wpbooklist-storytime-reader-top-cont ins, .wpbooklist-storytime-reader-top-cont kbd, .wpbooklist-storytime-reader-top-cont q, .wpbooklist-storytime-reader-top-cont s, .wpbooklist-storytime-reader-top-cont samp,
+.wpbooklist-storytime-reader-top-cont small, .wpbooklist-storytime-reader-top-cont strike, .wpbooklist-storytime-reader-top-cont strong, .wpbooklist-storytime-reader-top-cont sub, .wpbooklist-storytime-reader-top-cont sup, .wpbooklist-storytime-reader-top-cont tt, .wpbooklist-storytime-reader-top-cont var,
+.wpbooklist-storytime-reader-top-cont b, .wpbooklist-storytime-reader-top-cont u, .wpbooklist-storytime-reader-top-cont i, .wpbooklist-storytime-reader-top-cont center,
+.wpbooklist-storytime-reader-top-cont dl, .wpbooklist-storytime-reader-top-cont dt, .wpbooklist-storytime-reader-top-cont dd, .wpbooklist-storytime-reader-top-cont ol, .wpbooklist-storytime-reader-top-cont ul, .wpbooklist-storytime-reader-top-cont li,
+.wpbooklist-storytime-reader-top-cont fieldset, .wpbooklist-storytime-reader-top-cont form, .wpbooklist-storytime-reader-top-cont label, .wpbooklist-storytime-reader-top-cont legend,
+.wpbooklist-storytime-reader-top-cont table, .wpbooklist-storytime-reader-top-cont caption, .wpbooklist-storytime-reader-top-cont tbody, .wpbooklist-storytime-reader-top-cont tfoot, .wpbooklist-storytime-reader-top-cont thead, .wpbooklist-storytime-reader-top-cont tr, .wpbooklist-storytime-reader-top-cont th, .wpbooklist-storytime-reader-top-cont td,
+.wpbooklist-storytime-reader-top-cont article, .wpbooklist-storytime-reader-top-cont aside, .wpbooklist-storytime-reader-top-cont canvas, .wpbooklist-storytime-reader-top-cont details, .wpbooklist-storytime-reader-top-cont embed, .wpbooklist-storytime-reader-top-cont 
+figure, .wpbooklist-storytime-reader-top-cont figcaption, .wpbooklist-storytime-reader-top-cont footer, .wpbooklist-storytime-reader-top-cont header, .wpbooklist-storytime-reader-top-cont hgroup, .wpbooklist-storytime-reader-top-cont 
+menu, .wpbooklist-storytime-reader-top-cont nav, .wpbooklist-storytime-reader-top-cont output, .wpbooklist-storytime-reader-top-cont ruby, .wpbooklist-storytime-reader-top-cont section, .wpbooklist-storytime-reader-top-cont summary,
+time, .wpbooklist-storytime-reader-top-cont mark, .wpbooklist-storytime-reader-top-cont audio, .wpbooklist-storytime-reader-top-cont video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.wpbooklist-storytime-reader-top-cont article, .wpbooklist-storytime-reader-top-cont aside, .wpbooklist-storytime-reader-top-cont details, .wpbooklist-storytime-reader-top-cont figcaption, .wpbooklist-storytime-reader-top-cont figure, .wpbooklist-storytime-reader-top-cont 
+footer, .wpbooklist-storytime-reader-top-cont header, .wpbooklist-storytime-reader-top-cont hgroup, .wpbooklist-storytime-reader-top-cont menu, .wpbooklist-storytime-reader-top-cont nav, .wpbooklist-storytime-reader-top-cont section {
+	display: block;
+}
+.wpbooklist-storytime-reader-top-cont body {
+	line-height: 1;
+}
+.wpbooklist-storytime-reader-top-cont ol, .wpbooklist-storytime-reader-top-cont ul {
+	list-style: none;
+}
+.wpbooklist-storytime-reader-top-cont blockquote, .wpbooklist-storytime-reader-top-cont q {
+	quotes: none;
+}
+.wpbooklist-storytime-reader-top-cont blockquote:before, .wpbooklist-storytime-reader-top-cont blockquote:after,
+.wpbooklist-storytime-reader-top-cont q:before, .wpbooklist-storytime-reader-top-cont q:after {
+	content: '';
+	content: none;
+}
+.wpbooklist-storytime-reader-top-cont table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.wpbooklist-storytime-reader-top-cont{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif!important;
+	color:#000;
+}
+
+
+.wpbooklist-storytime-word-actual{
+   font-weight:bold;
+   font-style:italic; 
+}
+
+.wpbooklist-storytime-p-1{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px!important;
+    position:relative;
+    padding-top:20px;
+    margin-bottom: 0px;
+}
+
+.wpbooklist-storytime-p-2{
+    font-size: 20px!important;
+    font-weight: bold;
+    position: relative;
+    margin-top: 0px;
+}
+
+.wpbooklist-storytime-shocked-img{
+    width: 40px;
+    bottom: -4px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.wpbooklist-storytime-patreon-img{
+    width: 104px;
+    position: relative;
+    top: 7px;
+    margin-left: 6px;
+}
+
+.wpbooklist-storytime-signup-div-left p, .wpbooklist-storytime-signup-div-right p{
+    margin:0px;
+}
+
+.wpbooklist-storytime-signup-div-left .wpbooklist-storytime-signup-button-p, .wpbooklist-storytime-signup-div-right .wpbooklist-storytime-signup-button-p{
+    font-size:17px;
+}
+
+.wpbooklist-storytime-patreon-div{
+    background-color: #F86631;
+    border-radius: 3px;
+    border: solid 1px #F05A1A;
+    box-shadow: 4px 4px 4px 1px #555;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    text-shadow: 1px 1px black;
+    height:584px;
+    margin-bottom:150px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.wpbooklist-storytime-for-just-link, #wpbooklist-storytime-for-demo-link{
+    color: #fff;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #00a0d2;
+    padding-left: 4px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    font-style: italic;
+}
+
+.wpbooklist-storytime-for-just-link:hover, #wpbooklist-storytime-for-demo-link:hover{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.wpbooklist-storytime-patreon-div div p{
+    font-size:15px;
+}
+
+.wpbooklist-storytime-patreon-div ul{
+    text-align: center;
+}
+
+.wpbooklist-storytime-patreon-div ul li{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.wpbooklist-storytime-tilde{
+    font-weight: normal;
+}
+
+.wpbooklist-storytime-for-just-link span{
+    font-size:18px;
+    font-style:italic;
+}
+
+.wpbooklist-storytime-signup-div{
+    display: flex;
+    text-align: center;
+    cursor:pointer;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.wpbooklist-storytime-signup-div .wpbooklist-storytime-signup-div-left, .wpbooklist-storytime-signup-div .wpbooklist-storytime-signup-div-middle, .wpbooklist-storytime-signup-div .wpbooklist-storytime-signup-div-right{
+    display: inline-block;
+    width: 33.3%;
+}
+
+.wpbooklist-storytime-signup-div-middle img{
+    width:50px;
+    position: relative;
+    top: 5px;
+}
+
+.wpbooklist-storytime-signup-div-right img, .wpbooklist-storytime-signup-div-left img{
+    width: 40px;
+}
+
+.wpbooklist-storytime-signup-div-left img{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.wpbooklist-storytime-signup-div-left, .wpbooklist-storytime-signup-div-right{
+    box-shadow: 4px 4px 4px 1px #333;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 10px;
+    border: solid 1px #444;
+    color: black;
+    text-shadow: none;
+}
+
+.wpbooklist-storytime-signup-div-left:hover, .wpbooklist-storytime-signup-div-right:hover{
+    box-shadow:none;
+}
+
+.wpbooklist-storytime-signup-button-div, .wpbooklist-storytime-signup-button-p{
+    font-weight: bold;
+}
+
+.wpbooklist-storytime-signup-button-div{
+    margin-bottom: 5px!important;
+}
+
+.wpbooklist-storytime-reader-top-cont{
+    width: 500px;
+    height: 700px;
+    border: solid 1px #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0px 0px 6px 1px #BBBBBB;
+    margin-bottom:180px;
+}
+
+#wpbooklist-storytime-reader-inner-cont{
+    width: 480px;
+    height: 680px;
+    border: solid 1px #DDDDDD;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    box-shadow: inset 0px 0px 4px 1px #999;
+    position: relative;
+}
+
+.wpbooklist-storytime-reader-top-cont{
+    border-radius:3px;
+    background-color:#DEDEDE;
+}
+
+.wpbooklist-storytime-reader-titlebar-div-1 img{
+    width:35px;
+    vertical-align:top;
+}
+
+.wpbooklist-storytime-reader-titlebar-div-1 p{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    bottom: 13px;
+    margin-bottom: 15px!important;
+    margin-top:15px!important;
+    color:black;
+    text-decoration:none;
+}
+
+.wpbooklist-storytime-reader-titlebar-div-1 a{
+    color:black;
+    text-decoration:none;
+    box-shadow:none!important;
+}
+
+#wpbooklist-storytime-reader-titlebar-div-2 h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight:600;
+    text-transform:none;
+}
+
+#wpbooklist-storytime-reader-titlebar-div{
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: #eee;
+    margin: 2px;
+    border: solid 1px #ddd;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#wpbooklist-storytime-reader-provider-div{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    background-color: #eee;
+    margin: 2px;
+    border: solid 1px #ddd;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 115px;
+}
+
+#wpbooklist-storytime-reader-provider-div-1{
+	min-width:60px;
+}
+
+#wpbooklist-storytime-reader-provider-div-2{
+    margin-left: 10px;
+}
+
+#wpbooklist-storytime-reader-provider-div-1 img{
+    width: 60px;
+}
+
+#wpbooklist-storytime-reader-provider-div-2 #wpbooklist-storytime-reader-provider-p-1{
+    text-align: left!important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 1px black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#wpbooklist-storytime-reader-provider-div-2 #wpbooklist-storytime-reader-provider-p-2{
+    text-align: left!important;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#wpbooklist-storytime-reader-pagination-div{
+    display: flex;
+    position: absolute;
+    width: 99%;
+    margin: 2px;
+    margin-bottom: 0px;
+    bottom: 110px;
+    background-color: #F4F2F3;
+    border: solid 1px #eee;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    height:0px;
+    opacity:0;
+}
+
+#wpbooklist-storytime-reader-pagination-div-1{
+    position: absolute;
+    left: 0;
+}
+
+.wpbooklist-storytime-reader-pagination-div-2{
+    width:100%;
+    text-align:center;
+}
+
+#wpbooklist-storytime-reader-pagination-div-3{
+    position: absolute;
+    right: 0;
+}
+
+#wpbooklist-storytime-reader-pagination-div-1:hover, #wpbooklist-storytime-reader-pagination-div-3:hover{
+    background-color:#BEBDBE;
+    box-shadow: 1px 1px 1px black;
+}
+
+#wpbooklist-storytime-reader-pagination-div-1, #wpbooklist-storytime-reader-pagination-div-3{
+    cursor:pointer;
+    height:36px;
+}
+
+#wpbooklist-storytime-reader-pagination-div-1 img, #wpbooklist-storytime-reader-pagination-div-3 img{
+    width: 18px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+
+
+#wpbooklist-storytime-reader-selection-div-1-inner-1{
+    text-align: center;
+    margin-bottom: 10px;
+    overflow: auto;
+    height: 466px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wpbooklist-storytime-reader-selection-div-1-inner-2{
+    height: 0;
+    overflow: hidden;
+    opacity:0;
+    width: 99%;
+    margin: 2px;
+    position: relative;
+    bottom: 12px;
+    background-color: #F4F2F3;
+    border: solid 1px #eee;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    cursor:pointer;
+}
+
+#wpbooklist-storytime-reader-selection-div-1-inner-2 p{
+    margin:14px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#wpbooklist-storytime-reader-selection-div-1-inner-2 img{
+    position: absolute;
+    right: 45px;
+    width: 25px;
+    top: 10px;
+}
+
+#wpbooklist-storytime-reader-content-div{
+    opacity:0;
+    padding: 15px;
+    margin: 2px;
+    font-size: 15px;
+    line-height: 1.15;
+}
+
+.wpbooklist-storytime-reader-pagination-div-2-inner p{
+	font-size: 13px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    line-height: 1.5;
+}
+
+.wpbooklist-storytime-reader-pagination-div-2-inner span{
+    position: relative;
+    bottom: 4px;
+    font-size:13px;
+}
+
+.wpbooklist-storytime-listed-story{
+	border-radius: 3px;
+    padding: 5px!important;
+    border: 1px solid #CCCCCC!important;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px -1px black;
+    width: 90%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    font-size: 13px!important;
+    line-height: 1.5!important;
+    margin-bottom: 13px!important;
+    margin-top: 13px!important;
+}
+
+.wpbooklist-storytime-listed-story:hover{
+    background-color:#eeeeee;
+}
+
+.wpbooklist-storytime-patreon-line{
+    border: solid 1px #555;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.wpbooklist-storytime-demo-top-cont img{
+    width: 38px;
+    position: absolute;
+    right: -4px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -8px;
+}
+
+.wpbooklist-storytime-demo-top-cont span{
+    width: 165px;
+    display: inline-block;
+    margin-right: 4px;
+    text-align: left;
+    position: relative;
+    top: 8px;
+    line-height: 1;
+    font-size: 27px;
+    color: #F05A1A;
+    text-shadow: 1px 1px 1px black;
+}
+
+.wpbooklist-storytime-demo-top-cont p{
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    bottom: -15px;
+}
+
+.wpbooklist-storytime-provider-advert-div{
+    position: relative;
+    bottom: 72px;
+}
+
+.wpbooklist-storytime-row-div{
+    margin:10px;
+}
+
+.wpbooklist-storytime-row-div label{
+    
+}
+
+.wpbooklist-storytime-row-div input{
+    float:right;
+}
+
+#wpbooklist-storytime-settings-inner{
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#wpbooklist-storytime-settings-input-6{
+    float: none;
+    width: 50px;
+}
+
+#wpbooklist-storytime-row-div-6{
+    text-align: center;
+}
+
+#wpbooklist-storytime-settings-cont{
+    margin-top: 50px;
+}
+
+#wpbooklist-storytime-settings-cont p{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-weight: bold;
+    font-style: italic;    
+}
+
+.wpbooklist-storytime-settings-save-div{
+    text-align: center;
+    margin-top: 45px;
+}
+
+#wpbooklist-storytime-notify-div p{
+
+}
+
+#wpbooklist-storytime-notify-span1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#wpbooklist-storytime-notify-span2{
+    font-weight: bold;
+}
+
+#wpbooklist-storytime-notify-div h2{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 0;
+    position: relative;
+    bottom: 5px;
+}
+
+#wpbooklist-storytime-notify-span-div-img-1{
+    width: 30px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto!important;
+    right: 5px;
+    bottom: -5px;
+}
+
+#wpbooklist-storytime-notify-span-div1{
+    font-size:23px;
+}
+
+#wpbooklist-storytime-notify-span-div2{
+    font-size: 20px;
+    margin-top: 2px;
+    display: inline-block;
+    font-style: italic;
+}
+
+
+#wpbooklist-storytime-notify-span-div{
+    display: inline-block;
+    position: relative;
+    width: 133px;
+    line-height: 1;
+    text-align: left;
+    top: 15px;
+    text-shadow: 1px 1px #ddd;
+    color: #F05A1A;
+    font-weight: bold;
+}
+
+#wpbooklist-storytime-notify-div img{
+    max-width: 100px;
+}
+
+#wpbooklist-storytime-notify-div-inner-1{
+    margin-right: 15px;
+    max-width:100px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+#wpbooklist-storytime-notify-div-inner-2{
+    display:inline-block;
+    text-align: center;
+}
+
+#wpbooklist-storytime-notify-div .wpbooklist-my-notice-dismiss-forever{
+    height: 22px;
+    width: 60px;
+    float: right;
+    position: relative;
+    top: 107px;
+    left: 25px;
+    text-align: center;
+}
+
+#wpbooklist-storytime-reader-provider-div-delete{
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    text-align:center;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+#wpbooklist-storytime-reader-provider-div-delete-p{
+    font-size: 11px;
+    color: #0073aa;
+    text-decoration: underline;
+    font-style: italic;
+    display: inline-block;
+    margin:0px;
+}
+
+#wpbooklist-storytime-reader-provider-div-delete-p:hover{
+    color:#00a0d2;
+}
+
+#wpbooklist-storytime-reader-selection-div-1-inner-1 #wpbooklist-storytime-category-select{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-size: 14px;
+    border-radius: 0;
+    max-width: 200px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin-top: 10px!important;
+}
+
+.wpbooklist-storytime-reader-top-cont .wpbooklist-content-actual-title{
+	text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-style: italic;
+}
